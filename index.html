@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Facebook</title>
+</head>
+<body>
+	<center>
+		<h1>Facebook</h1>
+		<form>
+			<label for="login"><b>Usuario:</b></label><br>
+			<input type="email" id="usuario" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Ingresar correo: nombre@servidor.dominio" placeholder="Correo electrónico" required=""><br>
+			<span id="mensaje1"></span><br><br>
+			<label for="password"><b>Password:</b></label><br>
+			<input type="password" id="contraseña" minlength="6" title="Contraseña mínimo 6 caracteres" placeholder="Contraseña"  required=""><br>
+			<span id="mensaje2"></span><br><br>
+			
+			<input type="submit" id="ingresar" value="Ingresar">
+
+		</form>
+	</center>
+
+
+
+
+
+	<script  type='text/javascript' src='assets/js/app.js'></script>
+
+
+</body>
+</html>
